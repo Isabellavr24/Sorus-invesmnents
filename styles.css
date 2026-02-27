@@ -51,35 +51,48 @@ a{
 .logo{
     display:flex;
     align-items:center;
+    gap:10px;
 }
 
-.logo img{
-    display:block;
-    width:160px;
-    height:auto;
-    object-fit:contain;
+.brand-mark{
+    display:inline-flex;
+    width:44px;
+    height:44px;
 }
 
-.navbar-logo img{
-    width:96px;
-    border-radius:10px;
+.brand-mark svg{
+    width:100%;
+    height:100%;
 }
 
-.footer-logo img{
-    width:140px;
+.brand-mark svg *{
+    fill:none;
+    stroke:var(--gold);
+    stroke-width:5;
+    stroke-linecap:round;
+    stroke-linejoin:round;
 }
 
-.logo-fallback{
-    display:none;
-    color:var(--gold);
-    font-size:28px;
-    font-weight:600;
-    letter-spacing:2px;
-    text-transform:uppercase;
+.brand-text{
+    display:flex;
+    flex-direction:column;
+    line-height:1;
+    color:#fff;
 }
 
-.logo.logo-broken .logo-fallback{
-    display:block;
+.brand-text strong{
+    font-size:23px;
+    letter-spacing:1.2px;
+}
+
+.brand-text small{
+    font-size:11px;
+    letter-spacing:.9px;
+    color:#d9e3ef;
+}
+
+.footer .brand-text{
+    color:#e8edf4;
 }
 
 .navbar nav{
@@ -705,12 +718,21 @@ a{
         font-size:12px;
     }
 
-    .navbar-logo img{
-        width:78px;
+    .brand-mark{
+        width:36px;
+        height:36px;
     }
 
-    .footer-logo img{
-        width:120px;
+    .brand-text strong{
+        font-size:18px;
+    }
+
+    .brand-text small{
+        font-size:9px;
+    }
+
+    .navbar-logo .brand-text small{
+        display:none;
     }
 
     .btn-contact{
