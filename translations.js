@@ -64,7 +64,7 @@
     team_javier: "Distressed Properties & Auction Consulting",
     team_jennifer: "Realtor",
     team_robert: "Loans Solutions",
-    team_daniel: "Real Estate Agent, Property & Hosting Manage",
+    team_daniel: "Real Estate Agent, Property & Hosting Manager",
     team_david: "Property Acquisition Specialist",
     team_isabella: "Research Analyst",
     process_title: "Un proceso claro desde el primer dia",
